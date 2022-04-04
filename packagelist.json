@@ -6,7 +6,7 @@
         "downloadlist": [{
             "dest": "test.c",
             "git": false,
-            "url": "http://localhost:5000/uploads/test.c"
+            "url": "https://raw.githubusercontent.com/nikkusss/packages/main/test.c"
         }],
         "buildscript": {
             "cmd": "gcc",
