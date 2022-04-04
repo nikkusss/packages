@@ -1,0 +1,21 @@
+{
+    "version":"0.0.2",
+    "packages": [{
+        "name": "test",
+        "version": "0.0.0",
+        "downloadlist": [{
+            "dest": "test.c",
+            "git": false,
+            "url": "http://localhost:5000/uploads/test.c"
+        }],
+        "buildscript": {
+            "cmd": "gcc",
+            "args": "test.c -o out"
+        },
+        "install": [{
+            "src": "out",
+            "dest": "test",
+            "perm": "0777"
+        }]
+    }]
+}
